@@ -1,0 +1,272 @@
+[
+	{
+		"id": "AA",
+		"shelf": "Coffee and Tea",
+		"brand": "Lavazza",
+		"name": "Il Perfetto",
+		"weight": "250 g",
+		"price": 3.56,
+		"imageUrl": "LAVAZZA - Il Perfetto - 250g.jpg"
+	},
+	{
+		"id": "AB",
+		"shelf": "Grocery",
+		"brand": "Heinz",
+		"name": "Baked Beans",
+		"weight": "415 g",
+		"price": 0.92,
+		"imageUrl": "HEINZ - Baked Beans - 415g.jpg"
+	},
+	{
+		"id": "AC",
+		"shelf": "Grocery",
+		"brand": "Petit Navire",
+		"name": "Thon Entier",
+		"weight": "185 g",
+		"price": 2.97,
+		"imageUrl": "PETIT NAVIRE - Thon Entier - 185g.jpg"
+	},
+	{
+		"id": "AD",
+		"shelf": "Grocery",
+		"brand": "Maille",
+		"name": "Moutarde L'Originale",
+		"weight": "280 g",
+		"price": 1.76,
+		"imageUrl": "MAILLE - Moutarde L_Originale - 280g.jpg"
+	},
+	{
+		"id": "AE",
+		"shelf": "Grocery",
+		"brand": "Uncle Ben's",
+		"name": "Riz Long Grain",
+		"weight": "1 kg",
+		"price": 3.08,
+		"imageUrl": "UNCLE BEN_S - Riz Long Grain - 1kg.jpg"
+	},
+	{
+		"id": "AF",
+		"shelf": "Grocery",
+		"brand": "Barilla",
+		"name": "Girandole Torsades",
+		"weight": "500 g",
+		"price": 0.99,
+		"imageUrl": "BARILLA - Girandole Torsades - 500g.jpg"
+	},
+	{
+		"id": "AG",
+		"shelf": "Care",
+		"brand": "Dove",
+		"name": "Bain de beauté",
+		"weight": "500 ml",
+		"price": 5.48,
+		"imageUrl": "DOVE - Bain de Beauté - 500ml.jpg"
+	},
+	{
+		"id": "AH",
+		"shelf": "Drinks",
+		"brand": "San Pellegrino",
+		"name": "Citron",
+		"weight": "33 cl",
+		"price": 0.98,
+		"imageUrl": "SAN PELLEGRINO - Citron - 33cl.jpg"
+	},
+	{
+		"id": "AI",
+		"shelf": "Grocery",
+		"brand": "La Baleine",
+		"name": "Sel Fin",
+		"weight": "600 g",
+		"price": 1.09,
+		"imageUrl": "LA BALEINE - Sel Fin - 600g.jpg"
+	},
+	{
+		"id": "AJ",
+		"shelf": "Grocery",
+		"brand": "Pringles",
+		"name": "Salt and Vinegar",
+		"weight": "165 g",
+		"price": 2.87,
+		"imageUrl": "PRINGLES - Salt and Vinegar - 165g.jpg"
+	},
+	{
+		"id": "AK",
+		"shelf": "Drinks",
+		"brand": "Evian",
+		"name": "Eau Minérale",
+		"weight": "1,5 l",
+		"price": 0.59,
+		"imageUrl": "EVIAN - Eau Minérale - 1,5l.jpg"
+	},
+	{
+		"id": "AL",
+		"shelf": "Drinks",
+		"brand": "Ocean Spray",
+		"name": "Cranberry Classic",
+		"weight": "1 l",
+		"price": 1.73,
+		"imageUrl": "OCEAN SPRAY - Cranberry Classic - 1l.jpg"
+	},
+	{
+		"id": "AM",
+		"shelf": "Home",
+		"brand": "Febreze",
+		"name": "Thai Orchidée",
+		"weight": "300 ml",
+		"price": 3.47,
+		"imageUrl": "FEBREZE - Thai Orchidée - 300ml.jpg"
+	},
+	{
+		"id": "AN",
+		"shelf": "Sugar Grocery",
+		"brand": "Bonne Maman",
+		"name": "Confiture Myrtilles",
+		"weight": "370 g",
+		"price": 2.62,
+		"imageUrl": "BONNE MAMAN - Confiture Myrtilles - 370g.jpg"
+	},
+	{
+		"id": "AO",
+		"shelf": "Fresh Milk Product",
+		"brand": "Philadelphia",
+		"name": "Fromage Nature Light",
+		"weight": "150 g",
+		"price": 1.96,
+		"imageUrl": "PHILADELPHIA - Fromage Nature Light - 150g.jpg"
+	},
+	{
+		"id": "AP",
+		"shelf": "Brewery",
+		"brand": "Heineken",
+		"name": "Blonde Premium",
+		"weight": "50 cl",
+		"price": 1.23,
+		"imageUrl": "HEINEKEN - Blonde Premium - 50cl.jpg"
+	},
+	{
+		"id": "AQ",
+		"shelf": "Drinks",
+		"brand": "Coca-Cola",
+		"name": "Cola Standard",
+		"weight": "33 cl",
+		"price": 0.69,
+		"imageUrl": "COCA COLA - Cola Standard - 33cl.jpg"
+	},
+	{
+		"id": "AR",
+		"shelf": "Grocery",
+		"brand": "Barilla",
+		"name": "Sauce Pesto",
+		"weight": "190 g",
+		"price": 2.72,
+		"imageUrl": "BARILLA - Sauce Pesto - 190g.jpg"
+	},
+	{
+		"id": "AS",
+		"shelf": "Sugar Grocery",
+		"brand": "Ricoré",
+		"name": "Café Chicorée Soluble",
+		"weight": "100 g",
+		"price": 2.38,
+		"imageUrl": "RICORE - Café Chicorée Soluble - 100g.jpg"
+	},
+	{
+		"id": "AT",
+		"shelf": "Sugar Grocery",
+		"brand": "Nutella",
+		"name": "Pâte à Tartiner",
+		"weight": "750 g",
+		"price": 4.29,
+		"imageUrl": "NUTELLA - Pâte à Tartiner - 750g.jpg"
+	},
+	{
+		"id": "AU",
+		"shelf": "Grocery",
+		"brand": "French's",
+		"name": "Yellow Mustard",
+		"weight": "226 g",
+		"price": 3.20,
+		"imageUrl": "FRENCH_S - Yellow Mustard - 226g.jpg"
+	},
+	{
+		"id": "AV",
+		"shelf": "Drinks",
+		"brand": "Red Bull",
+		"name": "Energy Drink",
+		"weight": "250 ml",
+		"price": 1.29,
+		"imageUrl": "RED BULL - Energy Drink - 250ml.jpg"
+	},
+	{
+		"id": "AW",
+		"shelf": "Frozen",
+		"brand": "Ben & Jerry",
+		"name": "Cookie Dough",
+		"weight": "500 ml",
+		"price": 5.65,
+		"imageUrl": "BEN _ JERRY - Cookie Dough - 500ml.jpg"
+	},
+	{
+		"id": "AX",
+		"shelf": "Sugar Grocery",
+		"brand": "Maltesers",
+		"name": "Bonbon Chocolat",
+		"weight": "192,5 g",
+		"price": 3.04,
+		"imageUrl": "MALTESERS - Bonbon Chocolat - 192,5g.jpg"
+	},
+	{
+		"id": "AY",
+		"shelf": "Sugar Grocery",
+		"brand": "Crunch",
+		"name": "Tablette Chocolat",
+		"weight": "100 g",
+		"price": 1,
+		"imageUrl": "CRUNCH - Tablette Chocolat - 100g.jpg"
+	},
+	{
+		"id": "AZ",
+		"shelf": "Coffee and Tea",
+		"brand": "Lipton",
+		"name": "Sachets Yellow Label Tea",
+		"weight": "30 g",
+		"price": 1.70,
+		"imageUrl": "LIPTON - Sachets Yellow Label Tea - 30.jpg"
+	},
+	{
+		"id": "BA",
+		"shelf": "Sugar Grocery",
+		"brand": "Nesquik",
+		"name": "Chocolat Instantané",
+		"weight": "490 g",
+		"price": 3.12,
+		"imageUrl": "NESQUIK - Chocolat Instantané - 490g.jpg"
+	},
+	{
+		"id": "BB",
+		"shelf": "Grocery",
+		"brand": "Heinz",
+		"name": "Tomato Ketchup Top Down",
+		"weight": "220 ml",
+		"price": 1.22,
+		"imageUrl": "HEINZ - Tomato Ketchup Top Down - 220ml.jpg"
+	},
+	{
+		"id": "BC",
+		"shelf": "Sugar Grocery",
+		"brand": "Airwaves",
+		"name": "Chewing-gum Menthol Eucalyptus",
+		"weight": "70 g",
+		"price": 2.69,
+		"imageUrl": "AIRWAVES - Chewing-gum Menthol Eucalyptus - 70g.jpg"
+	},
+	{
+		"id": "BD",
+		"shelf": "Care",
+		"brand": "Signal",
+		"name": "Cavity Protection Toothpaste",
+		"weight": "75 ml",
+		"price": 1.47,
+		"imageUrl": "SIGNAL - Cavity Protection Toothpaste - 75ml.jpg"
+	}
+]

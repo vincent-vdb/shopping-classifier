@@ -1,0 +1,291 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html, body, .content {
+	height: 100%;
+}
+
+body {
+	margin: 0; 
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	background: white;
+	color: #444;
+	font-size: 3vh;
+	line-height: 1.4;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+	font-style: inherit;
+}
+
+h1 {
+	font-size: 2.1em;
+	margin: 20px 0;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.7em;
+	font-weight: normal;
+	margin: 10px;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 10px;
+}
+
+button {
+	border-radius: 10px;
+    border: 1px solid gray;
+    padding: 7px 12px;
+    font-family: inherit;
+    font-size: .6em;
+    background: white;
+}
+
+.content {
+	transition: all .4s ease-in;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	margin-top: 30px;
+	background: url('images/logo-mo-ka.png') no-repeat;
+	background-size: contain;
+	background-position: center;
+
+}
+
+.second {
+	transform: scale(.5);
+	opacity: .8;
+}
+
+.product {
+	margin: 0 40px;
+	text-align: center;
+}
+
+.brand {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.name {
+	font-size: 1.5em;
+}
+
+.price, .weight {
+	padding: 0 10px;
+	background: white;
+	border-radius: 10%;
+	font-size: .9em;
+	font-weight: bold;
+}
+
+.price {
+	float: right;
+}
+
+.weight {
+	float: left;
+}
+
+.product-image {
+	width: 250px;
+	height: 250px;
+	background-size: cover;
+	border-radius: 50%;
+	margin: 20px auto;
+	border: 4px dotted transparent;
+}
+
+#socket-count {
+	position: fixed;
+	text-align: right;
+	width: 100%;
+	bottom: 0;
+	font-size: 0.5em;
+}
+
+#message {
+	position: fixed;
+	bottom: 10%;
+}
+
+.input-image {
+	width: 350px;
+	height: 467px;
+	position: relative;
+	border: 4px dotted transparent;
+	border-radius: 15px;
+}
+
+.input-image img {
+	width: 100%;
+	height: 100%;
+	border-radius: 25px;
+}
+
+.input > input {
+	margin: 15px 0;
+	border-radius: 25px;
+	font-size: 1.1em;
+	width: 80%;
+	border: 1px solid #444;
+	font-family: inherit;
+	text-align: center;
+}
+
+#answers-list li {
+	padding: 5px 10px;
+	border-radius: 10px;
+	border: 2px solid transparent;
+}
+
+.center {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.left {
+	margin-left: 100px;
+}
+
+.right {
+	position: fixed;
+	right: 0;
+	width: 400px;
+	height: 100%;
+	text-align: center;
+	overflow-y: auto;
+	margin-top: 25px;
+}
+
+#timeline {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 300px;
+	overflow-y: scroll;
+	direction: rtl;
+}
+
+#timeline div {
+	direction: ltr;
+}
+
+.timeline-image {
+	display: flex;
+	align-items: center;
+}
+
+.timeline-image img {
+	width: 100px;
+	margin: 0 5px;
+	border-radius: 10px;
+	border: 2px solid transparent;
+}
+
+.timeline-image-info {
+	font-size: .5em;
+}
+
+.validated, .selected, .selected img {
+	border-color: green !important;
+}
+
+.streaming > .rec {
+	visibility: visible;
+}
+
+.streaming > .pause {
+	visibility: hidden;
+}
+
+.store-info, .device-info, .user {
+	font-size: .7em;
+	text-align: center;
+}
+
+.device-info {
+	margin-top: 20px;
+}
+
+.user {
+	font-size: 1em;
+}
+
+.rec, .pause {
+	position: absolute;
+}
+
+.rec {
+	top: 8px;
+	right: 6px;
+	visibility: hidden;
+	width: 20px;
+	height: 20px;
+	background: red;
+	border-radius: 50%;
+    animation: blinker 1s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.pause {
+	top: 10px;
+	right: 10px;
+    width: 4px;
+    height: 16px;
+    border-right: 4px solid #fff;
+    border-left: 4px solid #fff;
+}
+
+@keyframes blinker {  
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+#suggestions {
+	overflow-y: scroll;
+}
+
+.suggestion-image {
+	width: 75px;
+	height: 75px;
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+	margin: 5px;
+	border: 3px solid transparent;
+}
+
+.suggestion-image:nth-child(1) {
+	border-color: #1db100;
+	width: 130px;
+	height: 130px;
+	margin-left: 30px;
+}
+
+.suggestion-image:nth-child(2) {
+	border-color: #00a2ff;
+	width: 130px;
+	height: 130px;
+	margin-left: 30px;
+}
+
