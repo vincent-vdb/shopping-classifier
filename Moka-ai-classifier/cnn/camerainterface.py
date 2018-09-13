@@ -192,6 +192,7 @@ class ProductIdentifier:
 		while(True):
 			#print("running")
 			frame = self.source.get_frame()
+			print("shape of the frame: ", frame.shape)
 			if frame is not None:
 				self.process_frame(frame,visu=self.plotting)
 			if(len(self.ea.get_nbest(0,1.0))>0):
@@ -202,4 +203,41 @@ class ProductIdentifier:
 				break
 			elif code == ord(' '):
 				self.valid_reco()
+		cv2.destroyAllWindows()
+
+	def start_vince_multi(self):
+		self.source.start()
+
+		# print("running")
+		frame = self.source.get_frame()
+
+		#frame = frame[700:1500,200:800]
+		# Add a (sCanny) edge detector and perhaps object detection first with pure image processing
+
+		subX = 2
+		subY = 2
+		frameX = int(frame.shape[0] / subX)
+		frameY = int(frame.shape[1] / subY)
+		print("shape of the frame: ", frame.shape)
+
+		for x in range(subX):
+			for y in range(subY):
+				subframe = frame[x * frameX:(x + 1) * frameX, y * frameY:(y + 1) * frameY]
+
+				while(True):
+
+					print("shape of the subframe: ", x, y, subframe.shape)
+
+					if subframe is not None:
+						self.process_frame(subframe,visu=self.plotting)
+					if(len(self.ea.get_nbest(0,1.0))>0):
+						print("valid for subframe", x, y)
+						self.valid_reco()
+						break
+					code = cv2.waitKey(1) & 0xFF
+					if code == ord('q'):
+						self.source.stop()
+						break
+					elif code == ord(' '):
+						self.valid_reco()
 		cv2.destroyAllWindows()

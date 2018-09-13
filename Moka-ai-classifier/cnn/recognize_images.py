@@ -29,5 +29,6 @@ if __name__ == "__main__":
     print("Input dir: %s" % imgdir)
     source = camerainterface.ImagesPlaybackSource(imgdir, loop=True)
     pi = camerainterface.ProductIdentifier(source, plotting)
-    pi.start()
+    #pi.start()
+    pi.start_vince_multi()
     sys.exit(0)
